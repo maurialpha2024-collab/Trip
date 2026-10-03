@@ -5,7 +5,7 @@
 import { z } from "zod";
 import { commonPasswords } from "../common-passwords";
 
-export const minPasswordLength = 12;
+export const minPasswordLength = 6;
 
 export const weakPasswordMessage =
   "كلمة المرور ضعيفة: 12 حرفاً على الأقل، وتجنّب الكلمات الشائعة.";
